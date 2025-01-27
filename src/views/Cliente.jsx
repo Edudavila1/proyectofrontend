@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import imagen1 from '../Imagenes/CLIENTE1.PNG';
-import imagen2 from '../Imagenes/CLIENTE2.PNG';
+import imagen1 from '../Imagenes/CLIENTE1.png';
+import imagen2 from '../Imagenes/CLIENTE2.png';
 import imagen3 from '../Imagenes/CLIENTE3.PNG';
 import imagen4 from '../Imagenes/CLIENTE4.PNG';
 import imagen5 from '../Imagenes/CLIENTE5.PNG';
