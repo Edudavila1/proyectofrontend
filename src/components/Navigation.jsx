@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Nav, Navbar, Container } from "react-bootstrap";
-import imagen7 from '../Imagenes/LOGO.png';
+import imagen7 from '../assets/LOGO.png';
 
 const Navigation = () => {
   return (

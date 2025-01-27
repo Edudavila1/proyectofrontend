@@ -1,23 +1,23 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import imagen1 from '../Imagenes/CLIENTE1.png';
-import imagen2 from '../Imagenes/CLIENTE2.png';
-import imagen3 from '../Imagenes/CLIENTE3.PNG';
-import imagen4 from '../Imagenes/CLIENTE4.PNG';
-import imagen5 from '../Imagenes/CLIENTE5.PNG';
-import imagen6 from '../Imagenes/CLIENTE6.PNG';
-import imagen7 from '../Imagenes/CLIENTE7.PNG';
-import imagen8 from '../Imagenes/CLIENTE8.PNG';
-import imagen9 from '../Imagenes/CLIENTE9.PNG';
-import imagen10 from '../Imagenes/CLIENTE10.PNG';
-import imagen11 from '../Imagenes/CLIENTE11.PNG';
-import imagen12 from '../Imagenes/CLIENTE12.PNG';
-import imagen13 from '../Imagenes/CLIENTE13.PNG';
-import imagen14 from '../Imagenes/CLIENTE14.PNG';
-import imagen15 from '../Imagenes/CLIENTE15.PNG';
-import imagen16 from '../Imagenes/CLIENTE16.PNG';
-import imagen17 from '../Imagenes/CLIENTE17.PNG';
-import imagen18 from '../Imagenes/CLIENTE18.PNG';
+import imagen1 from '../assets/CLIENTE1.png';
+import imagen2 from '../assets/CLIENTE2.png';
+import imagen3 from '../assets/CLIENTE3.png';
+import imagen4 from '../assets/CLIENTE4.png';
+import imagen5 from '../assets/CLIENTE5.png';
+import imagen6 from '../assets/CLIENTE6.png';
+import imagen7 from '../assets/CLIENTE7.png';
+import imagen8 from '../assets/CLIENTE8.png';
+import imagen9 from '../assets/CLIENTE9.png';
+import imagen10 from '../assets/CLIENTE10.png';
+import imagen11 from '../assets/CLIENTE11.png';
+import imagen12 from '../assets/CLIENTE12.png';
+import imagen13 from '../assets/CLIENTE13.png';
+import imagen14 from '../assets/CLIENTE14.png';
+import imagen15 from '../assets/CLIENTE15.png';
+import imagen16 from '../assets/CLIENTE16.png';
+import imagen17 from '../assets/CLIENTE17.png';
+import imagen18 from '../assets/CLIENTE18.png';
 
 
 const Cliente = () => {

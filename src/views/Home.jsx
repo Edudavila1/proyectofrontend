@@ -1,11 +1,11 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import imagen1 from '../Imagenes/C02.jpg';
-import imagen2 from '../Imagenes/CIJ.jpg';
-import imagen3 from '../Imagenes/FIBRA.jpg';
-import imagen4 from '../Imagenes/LCM.jpg';
-import imagen5 from '../Imagenes/TIJ.png';
-import imagen6 from '../Imagenes/TTO.jpg';
+import imagen1 from '../assets/C02.jpg';
+import imagen2 from '../assets/CIJ.jpg';
+import imagen3 from '../assets/FIBRA.jpg';
+import imagen4 from '../assets/LCM.jpg';
+import imagen5 from '../assets/TIJ.png';
+import imagen6 from '../assets/TTO.jpg';
 
 
 const Home = () => {
