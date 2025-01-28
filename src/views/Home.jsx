@@ -21,7 +21,7 @@ const Home = () => {
     
     return (
       <div className="font-sans">
-        {/* Header Section */}
+        
         <div className="text-center py-5 bg-light">
           <h1 className="display-5 mb-3">En Antalis TFM somos expertos en identificación e impresión.</h1>
           <p className="lead text-muted">
@@ -29,7 +29,7 @@ const Home = () => {
           </p>
         </div>
   
-        {/* Product Gallery */}
+        
         <div className="container my-5">
           <div className="row row-cols-1 row-cols-md-3 g-4">
             {products.map((product) => (
@@ -68,10 +68,10 @@ const Home = () => {
                   loading="lazy"
                 ></iframe>
               </div>
-              <div className="col-md-4 text-center bg-pink text-white rounded p-4">
+              <div className="col-md-4 text-center bg-pink text-black rounded p-4">
                 <p className="h4 mb-3">(+51) 01 3491404</p>
                 <p>Central</p>
-                <hr className="my-4 bg-white" />
+                <hr className="my-4 bg-black" />
                 <p className="h4 mb-3">(+51) 01 3550808</p>
                 <p>Servicio Técnico</p>
               </div>

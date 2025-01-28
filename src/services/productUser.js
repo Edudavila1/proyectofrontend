@@ -3,19 +3,6 @@ import Swal from "sweetalert2";
 
 const URL = "https://67661e9b410f84999656de31.mockapi.io/User";
 
-
-const requestUsers = async () => {
-    try {
-      const response = await axios.get(URL);
-      // console.log(response)
-      if(response.status === 200) {
-        return response.data; //si va bien retornamos los datos
-      }
-      throw new Error("Error al solicitar productos")
-    } catch (error) {
-      throw error;
-    }
-  }
   
   const loginUser = async ({ Usuario, Contraseña, setError, navigate }) => {
     console.log("Usuario encontrado:", { Usuario, Contraseña, setError, navigate }); 
@@ -35,7 +22,7 @@ const requestUsers = async () => {
         // Verificar la contraseña
         if (user.password === Contraseña) {
           localStorage.setItem("authUser", JSON.stringify(user)); // Guardar el usuario en el localStorage
-          console.log("Que hay aqui", user); 
+          console.log("Verificamos si esta el usuario", user); 
           await Swal.fire({
             title: "Inicio de sesión exitoso",
             text: "Bienvenido al sistema",
@@ -71,7 +58,7 @@ const requestUsers = async () => {
 
 
   export {
-    requestUsers,
+    
     loginUser,
     
   }

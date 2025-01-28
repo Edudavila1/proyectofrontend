@@ -28,13 +28,13 @@ const RegistroOpciones = () => {
   return (
     
      <div className="container py-5">
-      {/* Título */}
+     
       <h1 className="text-center mb-4" style={{ fontWeight: "bold" }}>
         Ingreso de Registro
       </h1>
 
       <div className="row justify-content-center">
-        {/* Card 1 */}
+       
         <div className="col-md-4">
           <div className="card text-center shadow-sm mb-4">
             <div className="card-body">
@@ -48,7 +48,7 @@ const RegistroOpciones = () => {
         </div>
          
         
-      {/* Card 2 */}
+      
       <div className="col-md-4">
           <div className="card text-center shadow-sm mb-4">
             <div className="card-body">
@@ -61,7 +61,7 @@ const RegistroOpciones = () => {
           </div>
         </div>
     
-        {/* Card 3 */}
+       
         <div className="col-md-4">
           <div className="card text-center shadow-sm mb-4">
             <div className="card-body">
